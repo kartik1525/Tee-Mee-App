@@ -9,13 +9,12 @@ import { signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth
   
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBORS5sOI0KGvg3ZA4SQbJX4SOsRiSSZwY",
-  authDomain: "tee-mee-df102.firebaseapp.com",
-  projectId: "tee-mee-df102",
-  storageBucket: "tee-mee-df102.firebasestorage.app",
-  messagingSenderId: "232893838329",
-  appId: "1:232893838329:web:230e68a069382911bf8328",
-  measurementId: "G-ZY3S4YRD0J"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "XXXX",
+  appId: "XXXX"
 };
 
 const app = initializeApp(firebaseConfig);
