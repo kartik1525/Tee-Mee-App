@@ -188,6 +188,7 @@ body {
 .logout-btn {
   position: absolute;
   bottom: 15px;
+  display:none;
   right: 15px;
   background: #f7a8c2;
   border: none;
