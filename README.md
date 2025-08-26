@@ -53,4 +53,10 @@ const firebaseConfig = {
 };
 ```
 ## 📸 Screenshots  
-
+### 🔑 Login Page  
+![Login Screen]
+<img width="1013" height="649" alt="sd" src="https://github.com/user-attachments/assets/95cacc66-98a4-4453-9b16-a6f644b84a48" />
+--
+### 💬 Chat Screen  
+![Chat Screen]
+<img width="1013" height="644" alt="dds" src="https://github.com/user-attachments/assets/f2392102-12a7-461c-8a40-d53446f72caa" />
