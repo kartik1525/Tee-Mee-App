@@ -54,6 +54,7 @@ document.getElementById("logoutBtn").onclick = () => {
   signOut(auth).then(() => {
     document.getElementById("chat-screen").style.display = "none";
     document.getElementById("login-screen").style.display = "flex";
+    document.getElementById("logoutBtn").style.display = "none";
   });
 };
 
