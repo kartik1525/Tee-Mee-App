@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tee Mee 💬</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-screen" class="login-container">
+  <div class="login-card">
+    <h1>🌸 Welcome to Tee Mee 🌸</h1>
+    <p>Chat with friends in real-time</p>
+    <button id="loginBtn">Login with Google</button>
+  </div>
+</div>
+
+<div id="chat-screen" class="chat-container" style="display:none;">
+  <header class="chat-header">
+    ✨ Tee Mee ✨
+    <div id="userInfo" class="user-info">
+       <img id="userPic" class="user-pic" src="" alt="User Photo">
+        <span id="userName"></span></div>
+  </header>
+
+  <main id="messages" class="chat-messages"></main>
+
+  <div class="chat-input">
+    <input id="msgInput" type="text" placeholder="Type a message..." />
+    <button id="sendBtn">➤</button>
+  </div>
+
+  <button id="logoutBtn" class="logout-btn">Logout</button>
+</div>
+  <script type="module" src="script.js"></script> 
+</body>
+ 

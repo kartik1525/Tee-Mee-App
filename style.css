@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+}
+
+.login-card {
+  background: #fffaf5;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  max-width: 350px;
+}
+
+.login-card h1 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #444;
+}
+
+.login-card p {
+  margin-bottom: 25px;
+  color: #666;
+  font-size: 14px;
+}
+
+#loginBtn {
+  background: #f7a8c2;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#loginBtn:hover {
+  background: #f68cab;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.chat-container {
+  width: 400px;
+  height: 600px;
+  background: #fffaf5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  overflow: hidden;
+
+  /* Center like login screen */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chat-header {
+  background: #f7d9e3;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  color: #444;
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column; /* stack Tee Mee and username */
+  align-items: center;
+  gap: 5px;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.user-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+#userName {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-bubble {
+  background: #ffe6eb;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 75%;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  animation: fadeIn 0.3s ease;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #eee;
+  padding: 10px;
+  background: #fffaf5;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: #fef2f7;
+  margin-right: 8px;
+}
+
+.chat-input button {
+  background: #f7a8c2;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: 0.2s;
+}
+
+.chat-input button:hover {
+  background: #f68cab;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+.message-bubble {
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 75%;
+  margin-bottom: 10px;
+  animation: fadeIn 0.3s ease;
+}
+
+.me {
+  align-self: flex-end;
+  background: #f7a8c2;
+  color: white;
+}
+
+.them {
+  align-self: flex-start;
+  background: #ffe6eb;
+  color: #333;
+}
+.logout-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #f7a8c2;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.logout-btn:hover {
+  background: #f68cab;
+}
